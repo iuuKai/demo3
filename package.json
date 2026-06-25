@@ -1,0 +1,27 @@
+{
+	"name": "vercel-external-gateway-monorepo-template",
+	"version": "1.0.0",
+	"private": false,
+	"description": "Open-source Vercel gateway template. Each sub-project is independently deployed to separate Vercel instances. Uses vercel.json rewrites to proxy external site domains, unify multiple sites under one primary domain. Sub-projects can individually enable SSG, SPA or SSR mode.",
+	"license": "MIT",
+	"packageManager": "pnpm@11.4.0",
+	"keywords": [
+		"monorepo-template",
+		"monorepo",
+		"template",
+		"multi-app",
+		"multi-site",
+		"domain-proxy",
+		"reverse-proxy",
+		"cross-proxy",
+		"pnpm",
+		"mpa",
+		"spa",
+		"ssg",
+		"ssr",
+		"vercel",
+		"vercel-gateway",
+		"vercel-rewrites",
+		"vercel-deployment"
+	]
+}
