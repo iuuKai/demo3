@@ -3,8 +3,8 @@
 	"$schema": "https://openapi.vercel.sh/vercel.json",
 	"rewrites": [
 		{
-			"source": "/",
-			"destination": "https://gateway-express.vercel.app"
+			"source": "/:path*",
+			"destination": "https://gateway-express.vercel.app/:path*"
 		}
 	]
 }
