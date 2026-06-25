@@ -1,0 +1,35 @@
+{
+  "version": 2,
+  "builds": [
+		{
+			"src": "public/**/*",
+			"use": "@vercel/static"
+		},
+		{
+			"src": "src/app.js",
+			"use": "@vercel/node"
+		},
+  ],
+  "rewrites": [
+		{
+			"source": "/",
+			"destination": "/src/app.js"
+		},
+		{
+			"source": "/js/:path*",
+			"destination": "/public/js/:path*"
+		},
+		{
+			"source": "/css/:path*",
+			"destination": "/public/css/:path*"
+		},
+		{
+			"source": "/images/:path*",
+			"destination": "/public/images/:path*"
+		},
+		{
+			"source": "/:path*",
+			"destination": "/src/app.js"
+		}
+  ]
+}
