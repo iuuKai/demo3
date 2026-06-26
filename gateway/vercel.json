@@ -3,6 +3,14 @@
 	"$schema": "https://openapi.vercel.sh/vercel.json",
 	"rewrites": [
 		{
+			"source": "/astro-ssg",
+			"destination": "https://gateway-astro.vercel.app/astro-ssg/index.html"
+		},
+		{
+			"source": "/astro-ssg/:path*",
+			"destination": "https://gateway-astro.vercel.app/astro-ssg/:path*"
+		},
+		{
 			"source": "/",
 			"destination": "https://gateway-express.vercel.app"
 		},
