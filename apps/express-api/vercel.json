@@ -24,7 +24,7 @@
 			"destination": "/public/images/:path*"
 		},
 		{
-			"source": "/(:path*?)",
+			"source": "/:path(.*)",
 			"destination": "/src/app.js"
 		}
 	]
