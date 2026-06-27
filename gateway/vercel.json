@@ -19,7 +19,11 @@
 			"destination": "https://gateway-hexo.vercel.app/:path*"
 		},
 		{
-			"source": "/next-ssg/?",
+			"source": "/next-ssg",
+			"destination": "https://gateway-next-ssg.vercel.app"
+		},
+		{
+			"source": "/next-ssg/",
 			"destination": "https://gateway-next-ssg.vercel.app"
 		},
 		{
