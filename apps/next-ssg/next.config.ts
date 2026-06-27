@@ -2,10 +2,10 @@ import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
 	/* config options here */
-	output: 'export',
+	// output: 'export',
 	basePath: '/next-ssg',
 	images: {
-		unoptimized: true
+		// unoptimized: true
 	}
 }
 
