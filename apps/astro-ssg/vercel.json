@@ -2,20 +2,8 @@
 	"version": 2,
 	"rewrites": [
 		{
-			"source": "/astro-ssg",
-			"destination": "/index.html"
-		},
-		{
-			"source": "/astro-ssg/",
-			"destination": "/index.html"
-		},
-		{
 			"source": "/astro-ssg/:path*",
 			"destination": "/:path*"
-		},
-		{
-			"source": "/",
-			"destination": "/index.html"
 		},
 		{
 			"source": "/:path*",

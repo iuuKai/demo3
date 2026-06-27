@@ -4,7 +4,11 @@
 	"rewrites": [
 		{
 			"source": "/astro-ssg",
-			"destination": "https://gateway-astro.vercel.app/index.html"
+			"destination": "https://gateway-astro.vercel.app"
+		},
+		{
+			"source": "/astro-ssg/",
+			"destination": "https://gateway-astro.vercel.app"
 		},
 		{
 			"source": "/astro-ssg/:path*",
