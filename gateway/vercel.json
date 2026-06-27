@@ -35,6 +35,10 @@
 			"destination": "https://gateway-nuxt4-ssg.vercel.app/:path*"
 		},
 		{
+			"source": "/",
+			"destination": "https://gateway-express.vercel.app"
+		},
+		{
 			"source": "/:path(.*)",
 			"destination": "https://gateway-express.vercel.app/:path*"
 		}
