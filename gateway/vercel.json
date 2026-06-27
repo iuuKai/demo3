@@ -27,6 +27,14 @@
 			"destination": "https://gateway-next-ssg.vercel.app/next-ssg/:path*"
 		},
 		{
+			"source": "/nuxt4-ssg(/?)",
+			"destination": "https://gateway-nuxt4-ssg.vercel.app/nuxt4-ssg"
+		},
+		{
+			"source": "/nuxt4-ssg/:path(.*)",
+			"destination": "https://gateway-nuxt4-ssg.vercel.app/nuxt4-ssg/:path*"
+		},
+		{
 			"source": "/",
 			"destination": "https://gateway-express.vercel.app"
 		},

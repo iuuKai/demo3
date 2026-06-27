@@ -10,11 +10,7 @@
 			"destination": "/:path*/index.html"
 		},
 		{
-			"source": "/hexo-ssg/:path*",
-			"destination": "/:path*"
-		},
-		{
-			"source": "/:path*",
+			"source": "/((hexo-ssg/)?):path*",
 			"destination": "/:path*"
 		}
 	]
