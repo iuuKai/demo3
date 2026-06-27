@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "builds": [
+	"version": 2,
+	"builds": [
 		{
 			"src": "public/**/*",
 			"use": "@vercel/static"
@@ -8,9 +8,9 @@
 		{
 			"src": "src/app.js",
 			"use": "@vercel/node"
-		},
-  ],
-  "rewrites": [
+		}
+	],
+	"rewrites": [
 		{
 			"source": "/",
 			"destination": "/src/app.js"
@@ -31,5 +31,5 @@
 			"source": "/:path*",
 			"destination": "/src/app.js"
 		}
-  ]
+	]
 }
