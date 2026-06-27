@@ -19,6 +19,10 @@
 			"destination": "https://gateway-hexo.vercel.app"
 		},
 		{
+			"source": "/hexo-ssg/",
+			"destination": "https://gateway-hexo.vercel.app"
+		},
+		{
 			"source": "/hexo-ssg/:path*",
 			"destination": "https://gateway-hexo.vercel.app/:path*"
 		},

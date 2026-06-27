@@ -1,0 +1,17 @@
+{
+	"version": 2,
+	"rewrites": [
+		{
+			"source": "/hexo-ssg/",
+			"destination": "/"
+		},
+		{
+			"source": "/hexo-ssg/:path*",
+			"destination": "/:path*"
+		},
+		{
+			"source": "/:path*",
+			"destination": "/:path*"
+		}
+	]
+}
