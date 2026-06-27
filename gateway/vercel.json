@@ -20,11 +20,11 @@
 		},
 		{
 			"source": "/next-ssg/?",
-			"destination": "https://gateway-next.vercel.app"
+			"destination": "https://gateway-next-ssg.vercel.app"
 		},
 		{
 			"source": "/next-ssg/:path(.*)",
-			"destination": "https://gateway-next.vercel.app/:path*"
+			"destination": "https://gateway-next-ssg.vercel.app/:path*"
 		},
 		{
 			"source": "/",
