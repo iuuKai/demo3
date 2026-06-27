@@ -11,18 +11,6 @@
 			"destination": "https://gateway-astro.vercel.app/:path*"
 		},
 		{
-			"source": "/hexo-ssg(/:path*)?",
-			"destination": "https://gateway-hexo.vercel.app/:path*"
-		},
-		{
-			"source": "/next-ssg/?",
-			"destination": "https://gateway-next-ssg.vercel.app/next-ssg"
-		},
-		{
-			"source": "/next-ssg/:path(.*)",
-			"destination": "https://gateway-next-ssg.vercel.app/next-ssg/:path*"
-		},
-		{
 			"source": "/",
 			"destination": "https://gateway-express.vercel.app"
 		},
