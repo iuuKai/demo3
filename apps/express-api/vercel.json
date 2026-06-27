@@ -12,10 +12,6 @@
 	],
 	"rewrites": [
 		{
-			"source": "/",
-			"destination": "/src/app.js"
-		},
-		{
 			"source": "/js/:path*",
 			"destination": "/public/js/:path*"
 		},

@@ -3,23 +3,15 @@
 	"$schema": "https://openapi.vercel.sh/vercel.json",
 	"rewrites": [
 		{
-			"source": "/astro-ssg",
+			"source": "/astro-ssg/?",
 			"destination": "https://gateway-astro.vercel.app"
 		},
 		{
-			"source": "/astro-ssg/",
-			"destination": "https://gateway-astro.vercel.app"
-		},
-		{
-			"source": "/astro-ssg/:path*",
+			"source": "/astro-ssg/:path(.*)",
 			"destination": "https://gateway-astro.vercel.app/:path*"
 		},
 		{
-			"source": "/hexo-ssg",
-			"destination": "https://gateway-hexo.vercel.app"
-		},
-		{
-			"source": "/hexo-ssg/",
+			"source": "/hexo-ssg/?",
 			"destination": "https://gateway-hexo.vercel.app"
 		},
 		{
@@ -31,7 +23,7 @@
 			"destination": "https://gateway-express.vercel.app"
 		},
 		{
-			"source": "/:path*",
+			"source": "/:path(.*)",
 			"destination": "https://gateway-express.vercel.app/:path*"
 		}
 	]
