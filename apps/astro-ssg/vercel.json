@@ -6,11 +6,7 @@
 			"destination": "/"
 		},
 		{
-			"source": "/astro-ssg/:path*",
-			"destination": "/:path*"
-		},
-		{
-			"source": "/:path*",
+			"source": "(/astro-ssg?)/:path*",
 			"destination": "/:path*"
 		}
 	]

@@ -28,11 +28,11 @@
 		},
 		{
 			"source": "/nuxt4-ssg(/?)",
-			"destination": "https://gateway-nuxt4-ssg.vercel.app/nuxt4-ssg"
+			"destination": "https://gateway-nuxt4-ssg.vercel.app"
 		},
 		{
 			"source": "/nuxt4-ssg/:path(.*)",
-			"destination": "https://gateway-nuxt4-ssg.vercel.app/nuxt4-ssg/:path*"
+			"destination": "https://gateway-nuxt4-ssg.vercel.app/:path*"
 		},
 		{
 			"source": "/",

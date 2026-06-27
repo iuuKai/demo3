@@ -12,10 +12,6 @@
 	],
 	"rewrites": [
 		{
-			"source": "/",
-			"destination": "/src/app.js"
-		},
-		{
 			"source": "/js/:path*",
 			"destination": "/public/js/:path*"
 		},
@@ -28,7 +24,7 @@
 			"destination": "/public/images/:path*"
 		},
 		{
-			"source": "/:path*",
+			"source": "(/:path*?)",
 			"destination": "/src/app.js"
 		}
 	]
