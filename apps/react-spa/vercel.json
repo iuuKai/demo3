@@ -2,7 +2,7 @@
 	"version": 2,
 	"rewrites": [
 		{
-			"source": "(/react-spa?)",
+			"source": "/(react-spa?)",
 			"destination": "/react-spa/"
 		},
 		{
