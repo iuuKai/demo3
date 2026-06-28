@@ -1,11 +1,13 @@
 {
 	"version": 2,
-	"rewrites": [
+	"redirects": [
 		{
 			"source": "/",
 			"destination": "/react-spa/",
 			"permanent": true
-		},
+		}
+	],
+	"rewrites": [
 		{
 			"source": "/react-spa(/?)",
 			"destination": "/react-spa/"
