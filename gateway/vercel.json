@@ -43,6 +43,14 @@
 			"destination": "https://gateway-react.vercel.app/:path*"
 		},
 		{
+			"source": "/vanilla-spa(/?)",
+			"destination": "https://gateway-vanilla.vercel.app"
+		},
+		{
+			"source": "/vanilla-spa/:path(.*)",
+			"destination": "https://gateway-vanilla.vercel.app/:path*"
+		},
+		{
 			"source": "/:path(.*)",
 			"destination": "https://gateway-express.vercel.app/:path*"
 		}
