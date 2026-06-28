@@ -1,0 +1,13 @@
+{
+	"version": 2,
+	"rewrites": [
+		{
+			"source": "/react-spa(/?)",
+			"destination": "/"
+		},
+		{
+			"source": "/react-spa/:path(.*)",
+			"destination": "/:path*"
+		}
+	]
+}

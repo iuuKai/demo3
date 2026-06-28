@@ -35,6 +35,14 @@
 			"destination": "https://gateway-nuxt4-ssg.vercel.app/:path*"
 		},
 		{
+			"source": "/react-spa(/?)",
+			"destination": "https://gateway-react.vercel.app"
+		},
+		{
+			"source": "/react-spa/:path(.*)",
+			"destination": "https://gateway-react.vercel.app/:path*"
+		},
+		{
 			"source": "/:path(.*)",
 			"destination": "https://gateway-express.vercel.app/:path*"
 		}
