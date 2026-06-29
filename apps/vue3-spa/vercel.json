@@ -1,12 +1,5 @@
 {
 	"version": 2,
-	"redirects": [
-		{
-			"source": "/",
-			"destination": "/vue3-spa/",
-			"permanent": true
-		}
-	],
 	"rewrites": [
 		{
 			"source": "/vue3-spa(/?)",
