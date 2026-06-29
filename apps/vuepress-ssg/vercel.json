@@ -1,0 +1,13 @@
+{
+	"version": 2,
+	"rewrites": [
+		{
+			"source": "/vuepress-ssg(/?)",
+			"destination": "/"
+		},
+		{
+			"source": "/vuepress-ssg/:path(.*)",
+			"destination": "/:path*"
+		}
+	]
+}

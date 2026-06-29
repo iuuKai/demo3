@@ -1,0 +1,13 @@
+{
+	"version": 2,
+	"rewrites": [
+		{
+			"source": "/vitepress-ssg(/?)",
+			"destination": "/"
+		},
+		{
+			"source": "/vitepress-ssg/:path(.*)",
+			"destination": "/:path*"
+		}
+	]
+}

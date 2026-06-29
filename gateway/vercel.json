@@ -36,11 +36,11 @@
 		},
 		{
 			"source": "/react-spa(/?)",
-			"destination": "https://gateway-react.vercel.app"
+			"destination": "https://gateway-react.vercel.app/react-spa"
 		},
 		{
 			"source": "/react-spa/:path(.*)",
-			"destination": "https://gateway-react.vercel.app/:path*"
+			"destination": "https://gateway-react.vercel.app/react-spa/:path*"
 		},
 		{
 			"source": "/vanilla-spa(/?)",
@@ -49,6 +49,30 @@
 		{
 			"source": "/vanilla-spa/:path(.*)",
 			"destination": "https://gateway-vanilla.vercel.app/:path*"
+		},
+		{
+			"source": "/vitepress-ssg/:path(.*)",
+			"destination": "https://gateway-vitepress.vercel.app/:path*"
+		},
+		{
+			"source": "/vue3-spa(/?)",
+			"destination": "https://gateway-vue3.vercel.app"
+		},
+		{
+			"source": "/vue3-spa/:path(.*)",
+			"destination": "https://gateway-vue3.vercel.app/:path*"
+		},
+		{
+			"source": "/vuepress-ssg/:path(.*)",
+			"destination": "https://gateway-vuepress.vercel.app/:path*"
+		},
+		{
+			"source": "/webpack-ejs-mpa(/?)",
+			"destination": "https://gateway-ejs.vercel.app"
+		},
+		{
+			"source": "/webpack-ejs-mpa/:path(.*)",
+			"destination": "https://gateway-ejs.vercel.app/:path*"
 		},
 		{
 			"source": "/:path(.*)",
