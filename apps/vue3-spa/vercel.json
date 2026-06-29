@@ -10,7 +10,7 @@
 			"destination": "/:file*.:ext"
 		},
 		{
-			"source": "/vue3-spa(/:path(.*)?)",
+			"source": "/vue3-spa/:path(.*)",
 			"destination": "/index.html"
 		}
 	]
