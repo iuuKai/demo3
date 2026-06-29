@@ -2,12 +2,12 @@
 	"version": 2,
 	"rewrites": [
 		{
-			"source": "/vue3-spa(/.*)?",
-			"destination": "/index.html"
+			"source": "/vue3-spa/:file*.:ext",
+			"destination": "/:file*.:ext"
 		},
 		{
-			"source": "/vue3-spa/:path*",
-			"destination": "/:path*"
+			"source": "/vue3-spa(/.*)?",
+			"destination": "/index.html"
 		}
 	]
 }
