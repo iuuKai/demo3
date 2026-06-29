@@ -6,7 +6,7 @@
 			"destination": "/:file*.:ext"
 		},
 		{
-			"source": "/vue3-spa/:path(.*)",
+			"source": "/vue3-spa(/.*)?",
 			"destination": "/index.html"
 		}
 	]
