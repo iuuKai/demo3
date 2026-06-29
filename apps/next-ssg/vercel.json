@@ -4,14 +4,6 @@
 		{
 			"source": "/",
 			"destination": "/next-ssg"
-		},
-		{
-			"source": "/:file*.:ext",
-			"destination": "/:file*.:ext"
-		},
-		{
-			"source": "/:path*",
-			"destination": "/index.html"
 		}
 	]
 }

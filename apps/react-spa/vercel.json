@@ -10,7 +10,7 @@
 	"rewrites": [
 		{
 			"source": "/react-spa(/?)",
-			"destination": "/react-spa/"
+			"destination": "/index.html"
 		},
 		{
 			"source": "/react-spa/:file*.:ext",
