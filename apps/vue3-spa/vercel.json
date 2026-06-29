@@ -6,8 +6,8 @@
 			"destination": "/index.html"
 		},
 		{
-			"source": "/vue3-spa/(.+)",
-			"destination": "/$1"
+			"source": "/vue3-spa/:path*",
+			"destination": "/:path*"
 		}
 	]
 }
