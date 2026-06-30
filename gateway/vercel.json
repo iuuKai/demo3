@@ -56,7 +56,7 @@
 		},
 		{
 			"source": "/vitepress-ssg/:path(.*)",
-			"destination": "https://gateway-vitepress.vercel.app/vitepress-ssg/:path*"
+			"destination": "https://gateway-vitepress.vercel.app/:path*"
 		},
 		{
 			"source": "/vue3-spa(/?)",
@@ -84,19 +84,19 @@
 		},
 		{
 			"source": "/next-ssr(/?)",
-			"destination": "https://gateway-next-ssr.vercel.app/next-ssr"
+			"destination": "https://gateway-next-ssr.vercel.app"
 		},
 		{
 			"source": "/next-ssr/:path(.*)",
-			"destination": "https://gateway-next-ssr.vercel.app/next-ssr/:path*"
+			"destination": "https://gateway-next-ssr.vercel.app/:path*"
 		},
 		{
 			"source": "/nuxt4-ssr(/?)",
-			"destination": "https://gateway-nuxt4-ssr.vercel.app/nuxt4-ssr"
+			"destination": "https://gateway-nuxt4-ssr.vercel.app"
 		},
 		{
 			"source": "/nuxt4-ssr/:path(.*)",
-			"destination": "https://gateway-nuxt4-ssr.vercel.app/nuxt4-ssr/:path*"
+			"destination": "https://gateway-nuxt4-ssr.vercel.app/:path*"
 		},
 		{
 			"source": "/:path(.*)",
