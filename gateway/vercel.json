@@ -83,14 +83,6 @@
 			"destination": "https://gateway-ejs.vercel.app/:path*"
 		},
 		{
-			"source": "/nuxt3-ssr",
-			"destination": "https://iki-bookmark-nuxt3.vercel.app"
-		},
-		{
-			"source": "/nuxt3-ssr/:path(.*)",
-			"destination": "https://iki-bookmark-nuxt3.vercel.app/:path*"
-		},
-		{
 			"source": "/:path(.*)",
 			"destination": "https://gateway-express.vercel.app/:path*"
 		}
