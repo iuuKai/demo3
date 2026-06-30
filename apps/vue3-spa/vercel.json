@@ -2,8 +2,8 @@
 	"version": 2,
 	"rewrites": [
 		{
-			"source": "/vue3-spa/:file*.:ext",
-			"destination": "/:file*.:ext"
+			"source": "/vue3-spa/:path*.:ext",
+			"destination": "/:path*.:ext"
 		},
 		{
 			"source": "/vue3-spa(/.*)?",

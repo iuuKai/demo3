@@ -13,8 +13,8 @@
 			"destination": "/index.html"
 		},
 		{
-			"source": "/react-spa/:file*.:ext",
-			"destination": "/:file*.:ext"
+			"source": "/react-spa/:path*.:ext",
+			"destination": "/:path*.:ext"
 		},
 		{
 			"source": "/react-spa/:path(.*)",
