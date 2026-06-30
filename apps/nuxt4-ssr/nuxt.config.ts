@@ -1,0 +1,12 @@
+// https://nuxt.com/docs/api/configuration/nuxt-config
+export default defineNuxtConfig({
+	compatibilityDate: '2025-07-15',
+	ssr: true,
+	devtools: { enabled: true },
+	app: {
+		baseURL: '/nuxt4-ssr/'
+	},
+	nitro: {
+		preset: 'vercel'
+	}
+})

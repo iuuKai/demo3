@@ -1,0 +1,13 @@
+{
+	"version": 2,
+	"rewrites": [
+		{
+			"source": "/nuxt4-ssr(/?)",
+			"destination": "/"
+		},
+		{
+			"source": "/nuxt4-ssr/:path(.*)",
+			"destination": "/:path*"
+		}
+	]
+}

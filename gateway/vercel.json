@@ -83,6 +83,22 @@
 			"destination": "https://gateway-ejs.vercel.app/:path*"
 		},
 		{
+			"source": "/next-ssr(/?)",
+			"destination": "https://gateway-next-ssr.vercel.app"
+		},
+		{
+			"source": "/next-ssr/:path(.*)",
+			"destination": "https://gateway-next-ssr.vercel.app/:path*"
+		},
+		{
+			"source": "/nuxt4-ssr(/?)",
+			"destination": "https://gateway-nuxt4-ssr.vercel.app"
+		},
+		{
+			"source": "/nuxt4-ssr/:path(.*)",
+			"destination": "https://gateway-nuxt4-ssr.vercel.app/:path*"
+		},
+		{
 			"source": "/:path(.*)",
 			"destination": "https://gateway-express.vercel.app/:path*"
 		}
