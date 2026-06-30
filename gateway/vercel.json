@@ -84,19 +84,19 @@
 		},
 		{
 			"source": "/next-ssr(/?)",
-			"destination": "https://gateway-next-ssr.vercel.app"
+			"destination": "https://gateway-next-ssr.vercel.app/next-ssr"
 		},
 		{
 			"source": "/next-ssr/:path(.*)",
-			"destination": "https://gateway-next-ssr.vercel.app/:path*"
+			"destination": "https://gateway-next-ssr.vercel.app/next-ssr/:path*"
 		},
 		{
 			"source": "/nuxt4-ssr(/?)",
-			"destination": "https://gateway-nuxt4-ssr.vercel.app"
+			"destination": "https://gateway-nuxt4-ssr.vercel.app/nuxt4-ssr"
 		},
 		{
 			"source": "/nuxt4-ssr/:path(.*)",
-			"destination": "https://gateway-nuxt4-ssr.vercel.app/:path*"
+			"destination": "https://gateway-nuxt4-ssr.vercel.app/nuxt4-ssr/:path*"
 		},
 		{
 			"source": "/:path(.*)",

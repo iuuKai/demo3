@@ -68,5 +68,19 @@ module.exports = [
 		banner: '/images/next.png',
 		type: 'ssg',
 		path: '/next-ssg'
+	},
+	{
+		name: 'nuxt4-ssr',
+		description: 'Nuxt 4 服务器端渲染',
+		banner: '/images/nuxtssr.png',
+		type: 'ssr',
+		path: '/nuxt4-ssr'
+	},
+	{
+		name: 'next-ssr',
+		description: 'Next 服务器端渲染',
+		banner: '/images/nextssr.png',
+		type: 'ssr',
+		path: '/next-ssr'
 	}
 ]
