@@ -20,15 +20,15 @@
 		},
 		{
 			"source": "/next-ssg(/?)",
-			"destination": "https://gateway-next-ssg.vercel.app"
+			"destination": "https://gateway-next-ssg.vercel.app/next-ssg"
 		},
 		{
-			"source": "/next-ssg/:path(.*)",
-			"destination": "https://gateway-next-ssg.vercel.app/:path*"
+			"source": "/next-ssg/:path*",
+			"destination": "https://gateway-next-ssg.vercel.app/next-ssg/:path*"
 		},
 		{
 			"source": "/nuxt4-ssg(/?)",
-			"destination": "https://gateway-nuxt4-ssg.vercel.app"
+			"destination": "https://gateway-nuxt4-ssg.vercel.app/"
 		},
 		{
 			"source": "/nuxt4-ssg/:path(.*)",
