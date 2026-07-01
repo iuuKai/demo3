@@ -47,20 +47,12 @@
 			"destination": "https://gateway-vanilla.vercel.app/vanilla-spa$1"
 		},
 		{
-			"source": "/vitepress-ssg(/?)",
-			"destination": "https://gateway-vitepress.vercel.app/vitepress-ssg"
+			"source": "/vitepress-ssg(.*)",
+			"destination": "https://gateway-vitepress.vercel.app/vitepress-ssg$1"
 		},
 		{
-			"source": "/vitepress-ssg/:path(.*)",
-			"destination": "https://gateway-vitepress.vercel.app/vitepress-ssg/:path*"
-		},
-		{
-			"source": "/vue3-spa(/?)",
-			"destination": "https://gateway-vue3.vercel.app/vue3-spa"
-		},
-		{
-			"source": "/vue3-spa/:path(.*)",
-			"destination": "https://gateway-vue3.vercel.app/vue3-spa/:path*"
+			"source": "/vue3-spa(.*)",
+			"destination": "https://gateway-vue3.vercel.app/vue3-spa$1"
 		},
 		{
 			"source": "/vuepress-ssg(/?)",

@@ -2,12 +2,8 @@
 	"version": 2,
 	"rewrites": [
 		{
-			"source": "/vanilla-spa(/?)",
-			"destination": "/"
-		},
-		{
-			"source": "/vanilla-spa/:path(.*)",
-			"destination": "/:path*"
+			"source": "/vanilla-spa(.*)",
+			"destination": "/$1"
 		}
 	]
 }
