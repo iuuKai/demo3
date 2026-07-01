@@ -43,12 +43,8 @@
 			"destination": "https://gateway-react.vercel.app/react-spa/:path*"
 		},
 		{
-			"source": "/vanilla-spa(/?)",
-			"destination": "https://gateway-vanilla.vercel.app/vanilla-spa"
-		},
-		{
-			"source": "/vanilla-spa/:path(.*)",
-			"destination": "https://gateway-vanilla.vercel.app/vanilla-spa/:path*"
+			"source": "/vanilla-spa/(.*)",
+			"destination": "https://gateway-vanilla.vercel.app/vanilla-spa/$1"
 		},
 		{
 			"source": "/vitepress-ssg(/?)",
