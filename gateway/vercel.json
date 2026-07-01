@@ -7,10 +7,6 @@
 			"destination": "https://gateway-astro.vercel.app/astro-ssg"
 		},
 		{
-			"source": "/astro-ssg/:path(.*)",
-			"destination": "https://gateway-astro.vercel.app/astro-ssg/:path*"
-		},
-		{
 			"source": "/hexo-ssg(/?)",
 			"destination": "https://gateway-hexo.vercel.app"
 		},
