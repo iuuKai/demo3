@@ -3,11 +3,7 @@
 	"outputDirectory": "dist",
 	"rewrites": [
 		{
-			"source": "/",
-			"destination": "/home/index.html"
-		},
-		{
-			"source": "/webpack-ejs-mpa(/?)",
+			"source": "/(webpack-ejs-mpa/?)",
 			"destination": "/home/index.html"
 		},
 		{

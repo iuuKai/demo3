@@ -4,12 +4,8 @@
 	"outputDirectory": "docs/.vuepress/dist",
 	"rewrites": [
 		{
-			"source": "/vuepress-ssg(/?)",
-			"destination": "/"
-		},
-		{
-			"source": "/vuepress-ssg/:path(.*)",
-			"destination": "/:path*"
+			"source": "/vuepress-ssg(.*)",
+			"destination": "/$1"
 		}
 	]
 }
