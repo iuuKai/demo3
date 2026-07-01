@@ -7,12 +7,16 @@
 			"destination": "https://gateway-astro.vercel.app/astro-ssg"
 		},
 		{
+			"source": "/astro-ssg/:path(.*)",
+			"destination": "https://gateway-astro.vercel.app/astro-ssg/:path*"
+		},
+		{
 			"source": "/hexo-ssg(/?)",
-			"destination": "https://gateway-hexo.vercel.app"
+			"destination": "https://gateway-hexo.vercel.app/hexo-ssg"
 		},
 		{
 			"source": "/hexo-ssg/:path(.*)",
-			"destination": "https://gateway-hexo.vercel.app/:path*"
+			"destination": "https://gateway-hexo.vercel.app/hexo-ssg/:path*"
 		},
 		{
 			"source": "/next-ssg(/?)",
