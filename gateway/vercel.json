@@ -59,20 +59,12 @@
 			"destination": "https://gateway-ejs.vercel.app/webpack-ejs-mpa$1"
 		},
 		{
-			"source": "/next-ssr(/?)",
-			"destination": "https://gateway-next-ssr.vercel.app/next-ssr"
+			"source": "/next-ssr(.*)",
+			"destination": "https://gateway-next-ssr.vercel.app/next-ssr$1"
 		},
 		{
-			"source": "/next-ssr/:path(.*)",
-			"destination": "https://gateway-next-ssr.vercel.app/next-ssr/:path*"
-		},
-		{
-			"source": "/nuxt4-ssr(/?)",
-			"destination": "https://gateway-nuxt4-ssr.vercel.app/nuxt4-ssr"
-		},
-		{
-			"source": "/nuxt4-ssr/:path(.*)",
-			"destination": "https://gateway-nuxt4-ssr.vercel.app/nuxt4-ssr/:path*"
+			"source": "/nuxt4-ssr(.*)",
+			"destination": "https://gateway-nuxt4-ssr.vercel.app/nuxt4-ssr$1"
 		},
 		{
 			"source": "/:path(.*)",

@@ -1,6 +1,13 @@
 {
 	"version": 2,
 	"outputDirectory": "dist",
+	"redirects": [
+		{
+			"source": "/",
+			"destination": "/webpack-ejs-mpa",
+			"permanent": true
+		}
+	],
 	"rewrites": [
 		{
 			"source": "/(webpack-ejs-mpa/?)",

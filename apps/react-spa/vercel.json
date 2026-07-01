@@ -3,7 +3,7 @@
 	"redirects": [
 		{
 			"source": "/",
-			"destination": "/react-spa/",
+			"destination": "/react-spa",
 			"permanent": true
 		}
 	],
