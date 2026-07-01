@@ -2,12 +2,8 @@
 	"version": 2,
 	"rewrites": [
 		{
-			"source": "/hexo-ssg(/?)",
-			"destination": "/"
-		},
-		{
-			"source": "/hexo-ssg/:path*/",
-			"destination": "/:path*/index.html"
+			"source": "/hexo-ssg/:path*(/?)",
+			"destination": "/:path*index.html"
 		},
 		{
 			"source": "/hexo-ssg/:path*",
