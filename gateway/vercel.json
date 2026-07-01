@@ -44,7 +44,7 @@
 		},
 		{
 			"source": "/vanilla-spa(/?|/.*)",
-			"destination": "https://gateway-vanilla.vercel.app/vanilla-spa$1"
+			"destination": "https://gateway-vanilla.vercel.app/vanilla-spa/$1"
 		},
 		{
 			"source": "/vitepress-ssg(/?)",
