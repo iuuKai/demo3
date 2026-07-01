@@ -28,11 +28,11 @@
 		},
 		{
 			"source": "/nuxt4-ssg(/?)",
-			"destination": "https://gateway-nuxt4-ssg.vercel.app/"
+			"destination": "https://gateway-nuxt4-ssg.vercel.app/nuxt4-ssg"
 		},
 		{
-			"source": "/nuxt4-ssg/:path(.*)",
-			"destination": "https://gateway-nuxt4-ssg.vercel.app/:path*"
+			"source": "/nuxt4-ssg/:path*",
+			"destination": "https://gateway-nuxt4-ssg.vercel.app/nuxt4-ssg/:path*"
 		},
 		{
 			"source": "/react-spa(/?)",
@@ -44,19 +44,19 @@
 		},
 		{
 			"source": "/vanilla-spa(/?)",
-			"destination": "https://gateway-vanilla.vercel.app"
+			"destination": "https://gateway-vanilla.vercel.app/vanilla-spa"
 		},
 		{
 			"source": "/vanilla-spa/:path(.*)",
-			"destination": "https://gateway-vanilla.vercel.app/:path*"
+			"destination": "https://gateway-vanilla.vercel.app/vanilla-spa/:path*"
 		},
 		{
 			"source": "/vitepress-ssg(/?)",
-			"destination": "https://gateway-vitepress.vercel.app"
+			"destination": "https://gateway-vitepress.vercel.app/vitepress-ssg"
 		},
 		{
 			"source": "/vitepress-ssg/:path(.*)",
-			"destination": "https://gateway-vitepress.vercel.app/:path*"
+			"destination": "https://gateway-vitepress.vercel.app/vitepress-ssg/:path*"
 		},
 		{
 			"source": "/vue3-spa(/?)",
@@ -68,35 +68,35 @@
 		},
 		{
 			"source": "/vuepress-ssg(/?)",
-			"destination": "https://gateway-vuepress.vercel.app"
+			"destination": "https://gateway-vuepress.vercel.app/vuepress-ssg"
 		},
 		{
 			"source": "/vuepress-ssg/:path(.*)",
-			"destination": "https://gateway-vuepress.vercel.app/:path*"
+			"destination": "https://gateway-vuepress.vercel.app/vuepress-ssg/:path*"
 		},
 		{
 			"source": "/webpack-ejs-mpa(/?)",
-			"destination": "https://gateway-ejs.vercel.app"
+			"destination": "https://gateway-ejs.vercel.app/webpack-ejs-mpa"
 		},
 		{
 			"source": "/webpack-ejs-mpa/:path(.*)",
-			"destination": "https://gateway-ejs.vercel.app/:path*"
+			"destination": "https://gateway-ejs.vercel.app/webpack-ejs-mpa/:path*"
 		},
 		{
 			"source": "/next-ssr(/?)",
-			"destination": "https://gateway-next-ssr.vercel.app"
+			"destination": "https://gateway-next-ssr.vercel.app/next-ssr"
 		},
 		{
 			"source": "/next-ssr/:path(.*)",
-			"destination": "https://gateway-next-ssr.vercel.app/:path*"
+			"destination": "https://gateway-next-ssr.vercel.app/next-ssr/:path*"
 		},
 		{
 			"source": "/nuxt4-ssr(/?)",
-			"destination": "https://gateway-nuxt4-ssr.vercel.app"
+			"destination": "https://gateway-nuxt4-ssr.vercel.app/nuxt4-ssr"
 		},
 		{
 			"source": "/nuxt4-ssr/:path(.*)",
-			"destination": "https://gateway-nuxt4-ssr.vercel.app/:path*"
+			"destination": "https://gateway-nuxt4-ssr.vercel.app/nuxt4-ssr/:path*"
 		},
 		{
 			"source": "/:path(.*)",
