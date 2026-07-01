@@ -3,36 +3,20 @@
 	"$schema": "https://openapi.vercel.sh/vercel.json",
 	"rewrites": [
 		{
-			"source": "/astro-ssg(/?)",
-			"destination": "https://gateway-astro.vercel.app/astro-ssg"
+			"source": "/astro-ssg(.*)",
+			"destination": "https://gateway-astro.vercel.app/astro-ssg$1"
 		},
 		{
-			"source": "/astro-ssg/:path(.*)",
-			"destination": "https://gateway-astro.vercel.app/astro-ssg/:path*"
+			"source": "/hexo-ssg(.*)",
+			"destination": "https://gateway-hexo.vercel.app/hexo-ssg$1"
 		},
 		{
-			"source": "/hexo-ssg(/?)",
-			"destination": "https://gateway-hexo.vercel.app/hexo-ssg"
+			"source": "/next-ssg(.*)",
+			"destination": "https://gateway-next-ssg.vercel.app/next-ssg$1"
 		},
 		{
-			"source": "/hexo-ssg/:path(.*)",
-			"destination": "https://gateway-hexo.vercel.app/hexo-ssg/:path*"
-		},
-		{
-			"source": "/next-ssg(/?)",
-			"destination": "https://gateway-next-ssg.vercel.app/next-ssg"
-		},
-		{
-			"source": "/next-ssg/:path*",
-			"destination": "https://gateway-next-ssg.vercel.app/next-ssg/:path*"
-		},
-		{
-			"source": "/nuxt4-ssg(/?)",
-			"destination": "https://gateway-nuxt4-ssg.vercel.app/nuxt4-ssg"
-		},
-		{
-			"source": "/nuxt4-ssg/:path*",
-			"destination": "https://gateway-nuxt4-ssg.vercel.app/nuxt4-ssg/:path*"
+			"source": "/nuxt4-ssg(.*)",
+			"destination": "https://gateway-nuxt4-ssg.vercel.app/nuxt4-ssg$1"
 		},
 		{
 			"source": "/react-spa(.*)",

@@ -2,12 +2,8 @@
 	"version": 2,
 	"rewrites": [
 		{
-			"source": "/nuxt4-ssg(/?)",
-			"destination": "/"
-		},
-		{
-			"source": "/nuxt4-ssg/:path(.*)",
-			"destination": "/:path*"
+			"source": "/nuxt4-ssg(.*)",
+			"destination": "/$1"
 		}
 	]
 }
