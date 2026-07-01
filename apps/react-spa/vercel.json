@@ -9,15 +9,11 @@
 	],
 	"rewrites": [
 		{
-			"source": "/react-spa(/?)",
-			"destination": "/index.html"
+			"source": "/react-spa/:path*",
+			"destination": "/:path*"
 		},
 		{
-			"source": "/react-spa/:path*.:ext",
-			"destination": "/:path*.:ext"
-		},
-		{
-			"source": "/react-spa/:path(.*)",
+			"source": "/(.*)",
 			"destination": "/index.html"
 		}
 	]

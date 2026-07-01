@@ -10,7 +10,6 @@ export default defineNuxtConfig({
 	},
 	nitro: {
 		preset: 'static',
-		baseURL: '/nuxt4-ssg/',
 		output: {
 			dir: './.output',
 			publicDir: './.output/public'
