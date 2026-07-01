@@ -1,4 +1,13 @@
 {
 	"version": 2,
-	"rewrites": []
+	"rewrites": [
+		{
+			"source": "/astro-ssg(/?)",
+			"destination": "/"
+		},
+		{
+			"source": "/astro-ssg/:path(.*)",
+			"destination": "/:path*"
+		}
+	]
 }
