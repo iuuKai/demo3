@@ -1,8 +1,0 @@
-packages:
-  - 'gateway'
-  - 'apps/*'
-allowBuilds:
-  '@parcel/watcher': false
-  esbuild: false
-  hexo-util: false
-  sharp: false
