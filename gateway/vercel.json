@@ -4,51 +4,51 @@
 	"rewrites": [
 		{
 			"source": "/astro-ssg(.*)",
-			"destination": "https://gateway-astro.vercel.app/astro-ssg$1"
+			"destination": "https://gateway-astro.vercel.app/$1"
 		},
 		{
 			"source": "/hexo-ssg(.*)",
-			"destination": "https://gateway-hexo.vercel.app/hexo-ssg$1"
+			"destination": "https://gateway-hexo.vercel.app/$1"
 		},
 		{
 			"source": "/next-ssg(.*)",
-			"destination": "https://gateway-next-ssg.vercel.app/next-ssg$1"
+			"destination": "https://gateway-next-ssg.vercel.app/$1"
 		},
 		{
 			"source": "/nuxt4-ssg(.*)",
-			"destination": "https://gateway-nuxt4-ssg.vercel.app/nuxt4-ssg$1"
+			"destination": "https://gateway-nuxt4-ssg.vercel.app/$1"
 		},
 		{
 			"source": "/react-spa(.*)",
-			"destination": "https://gateway-react.vercel.app/react-spa$1"
+			"destination": "https://gateway-react.vercel.app/$1"
 		},
 		{
 			"source": "/vanilla-spa(.*)",
-			"destination": "https://gateway-vanilla.vercel.app/vanilla-spa$1"
+			"destination": "https://gateway-vanilla.vercel.app/$1"
 		},
 		{
 			"source": "/vitepress-ssg(.*)",
-			"destination": "https://gateway-vitepress.vercel.app/vitepress-ssg$1"
+			"destination": "https://gateway-vitepress.vercel.app/$1"
 		},
 		{
 			"source": "/vue3-spa(.*)",
-			"destination": "https://gateway-vue3.vercel.app/vue3-spa$1"
+			"destination": "https://gateway-vue3.vercel.app/$1"
 		},
 		{
 			"source": "/vuepress-ssg(.*)",
-			"destination": "https://gateway-vuepress.vercel.app/vuepress-ssg$1"
+			"destination": "https://gateway-vuepress.vercel.app/$1"
 		},
 		{
 			"source": "/webpack-ejs-mpa(.*)",
-			"destination": "https://gateway-ejs.vercel.app/webpack-ejs-mpa$1"
+			"destination": "https://gateway-ejs.vercel.app/$1"
 		},
 		{
 			"source": "/next-ssr(.*)",
-			"destination": "https://gateway-next-ssr.vercel.app/next-ssr$1"
+			"destination": "https://gateway-next-ssr.vercel.app/$1"
 		},
 		{
 			"source": "/nuxt4-ssr(.*)",
-			"destination": "https://gateway-nuxt4-ssr.vercel.app/nuxt4-ssr$1"
+			"destination": "https://gateway-nuxt4-ssr.vercel.app/$1"
 		},
 		{
 			"source": "/:path(.*)",

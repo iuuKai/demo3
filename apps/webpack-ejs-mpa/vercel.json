@@ -4,18 +4,8 @@
 	"redirects": [
 		{
 			"source": "/",
-			"destination": "/webpack-ejs-mpa/home/index.html",
+			"destination": "/home/index.html",
 			"permanent": true
-		}
-	],
-	"rewrites": [
-		{
-			"source": "/(webpack-ejs-mpa/?)",
-			"destination": "/home/index.html"
-		},
-		{
-			"source": "/webpack-ejs-mpa/:path*",
-			"destination": "/:path*"
 		}
 	]
 }

@@ -8,7 +8,7 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 const pages = ['home', 'about', 'link']
 
-const BASE_URL = '/webpack-ejs-mpa/'
+const BASE_URL = '/'
 
 export default (env, argv) => {
 	const isProd = argv.mode === 'production'

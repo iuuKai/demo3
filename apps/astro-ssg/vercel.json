@@ -1,9 +1,0 @@
-{
-	"version": 2,
-	"rewrites": [
-		{
-			"source": "/astro-ssg(.*)",
-			"destination": "/$1"
-		}
-	]
-}

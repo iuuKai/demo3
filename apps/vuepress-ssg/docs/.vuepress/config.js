@@ -3,7 +3,6 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
 
 export default defineUserConfig({
-	base: '/vuepress-ssg/',
 	bundler: viteBundler({
 		viteOptions: {
 			publicDir: 'public',
